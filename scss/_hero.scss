@@ -1,0 +1,99 @@
+#gif {
+    background-color: $secundary-color;
+    height: calc(100vh - 90px);
+    position: relative;
+    background-image: url(../img/portada2.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+
+
+header a {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    font-size: 45px;
+    color: white;
+
+}
+
+#img-fondo {
+    float: left;
+}
+
+/*TRAILER*/
+
+#gif2 {
+    background-color: $secundary-color;
+    height: calc(100vh - 90px);
+    position: relative;
+    background-image: url(../img/blanco2.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+/*SINOPSIS*/
+
+#gif3 {
+    height: 100%;
+    position: relative;
+    padding-bottom: 40%;
+   
+   
+}
+#gif3 video{
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+/*REPARTO*/
+
+#gif4 {
+    background-color: $secundary-color;
+    height: calc(100vh - 95px);
+    position: relative;
+    background-image: url(../img/gif-pp.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+@media screen and (max-width:700px){
+    #gif {
+        margin-top: 13%;
+        height: calc(103vh - 90px);
+
+    }
+
+    #gif2 {
+        margin-top: 13%;
+        height: calc(105vh - 80px);
+
+    }
+
+    #gif3 {
+        margin-top: 13%;
+    }
+    #gif3 a{
+        font-size: 0px;
+        
+    }
+  
+
+    #gif4 {
+        margin-top: 13%;
+        height: calc(105vh - 80px);
+
+    }
+}

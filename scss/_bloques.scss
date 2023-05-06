@@ -1,0 +1,268 @@
+#blade-runner {
+    background-color: black;
+}
+
+.bloque1 h1 {
+    font-size: 90px;
+    margin-top: -280px;
+    padding-bottom: 90px;
+
+}
+
+.bloque1 img {
+    width: 22%;
+    border: 3px solid #f82b43;
+    float: left;
+}
+
+.bloque1 p {
+    width: 80%;
+    padding-left: 280px;
+    font-size: 23px;
+    margin-top: 150px;
+
+}
+
+.bloque1 span {
+    border-top: 5px solid #f82b43;
+    padding-top: 35px;
+}
+
+
+.bloque2 {
+    position: relative;
+}
+
+.bloque2 h1 {
+    text-align: left;
+    margin-top: 250px;
+    font-size: 70px;
+    line-height: 5px;
+
+}
+
+.bloque2 h2 {
+    font-size: 35px;
+    line-height: 5px;
+    -webkit-text-stroke: 1.5px #f82b43;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+
+}
+
+.bloque2 p {
+    font-size: 23px;
+    width: 70%;
+    padding-bottom: 100px;
+    margin-bottom: 0%;
+    margin-top: 50px;
+
+}
+
+.bloque2 img {
+    width: 28%;
+    border: 3px solid #f82b43;
+    position: absolute;
+    right: -5%;
+    top: -20px;
+
+}
+
+/*SINOPSIS*/
+.bloque-sp-1 img {
+    width: 100%;
+
+}
+.bloque-texto {
+    position: relative;
+}
+
+.bloque-texto img {
+    width: 22%;
+    float: left;
+    position: absolute;
+    right: 0px;
+
+
+}
+
+.primer-bloque-texto {
+    width: 72.5%;
+
+}
+
+@media screen and (max-width:1200px){
+    .bloque1 h1 {
+        font-size: 8vw;
+        margin-top: -220px;
+       
+    }
+    
+    .bloque1 img {
+        width: 15em;
+        
+        border: 3px solid #f82b43;
+        float: left;
+
+    }
+    
+    .bloque1 p {
+        width: 60%;
+        padding-left: 300px;
+        font-size: 23px;
+        margin-top: 150px;
+        text-align: justify;
+        margin: auto;
+
+    
+    }
+    
+    .bloque1 span {
+        border-top: 5px solid #f82b43;
+        padding-top: 35px;
+    }
+
+    .bloque2 h2 {
+        font-size: 35px;
+        line-height: 5px;
+        -webkit-text-stroke: 1.5px #f82b43;
+        -webkit-text-fill-color: transparent;
+        font-family: sans-serif;
+    
+    }
+    
+    .bloque2 p {
+      width: 62%;
+        text-align: justify;
+    
+    }
+    
+    .bloque2 img {
+        width: 15rem;
+        border: 3px solid #f82b43;
+        position: absolute;
+        right: 0%;
+        top: 80px;
+        
+    
+    }
+    /* SINOPSIS*/
+    
+    .bloque-texto img{
+        width: 13rem;
+    }
+/* FIN SINOPSIS*/
+}
+
+@media screen and (max-width:900px){
+    .bloque2 img{
+        width: 15rem;
+        right: -25px;
+        top:100px
+    }
+    /* SINOPSIS*/
+    .primer-bloque-texto {
+        width: 100% 
+        
+    }
+    .bloque-texto img{
+        width: 13rem;
+        position: static;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .bloque1 h1{
+        font-size: 9vw;
+        margin-top: -25%;
+        padding-bottom: 80px;
+    
+    }
+    .bloque1 img {
+        width: 80%;
+        border: 1px solid #f82b43;
+        float: none;
+        margin: auto;
+    }
+    
+    .bloque1 p {
+        width: 100%;
+        padding-left: 0px;
+        font-size: 20px;
+        margin-top: 100px;
+        text-align: justify;
+    
+    }
+    .bloque1 span {
+        border-top: 3px solid #f82b43;
+        padding-top: 20px;
+    }
+    
+    .bloque2 {
+        position: static;
+    }
+    
+    .bloque2 h1 {
+       
+        margin-top: 100px;
+        font-size: 12vw;
+        line-height: 7px;
+    
+    }
+    
+    .bloque2 h2 {
+        font-size: 9vw;
+        line-height: 40px;
+        -webkit-text-stroke: 1.5px #f82b43;
+        -webkit-text-fill-color: transparent;
+        font-family: sans-serif;
+    
+    }
+    
+    .bloque2 p {
+        font-size: 20px;
+        width: 100%;
+        padding-bottom: 100px;
+        margin: auto;
+        text-align: justify;
+        padding-top: 50px;
+        
+    
+    }
+    
+    .bloque2 img {
+        width: 80%;
+        border: 3px solid #f82b43;
+        position: static;
+       
+        margin: auto;
+       
+    
+    }
+
+
+    .bloque-texto img{
+        float: none;
+        margin: auto;
+        width: 50%;
+        position:static;
+        
+    }
+
+    .primer-bloque-texto {
+        margin: auto;
+        width: 100%;
+        padding-top: 40px;
+        font-size: 23px;
+
+    }
+    .bloque-texto p {
+        margin: auto;
+        width: 100%;
+        padding-top: 40px;
+        font-size: 23px;
+
+    }
+}

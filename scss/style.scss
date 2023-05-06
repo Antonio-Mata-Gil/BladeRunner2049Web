@@ -1,0 +1,43 @@
+$primary-color:#000723;
+$secundary-color: #fe3501;
+
+
+
+@import "header";
+@import "hero";
+@import "sections";
+@import "bloques";
+@import "trailer";
+@import "sinopsis";
+@import "reparto";
+@import "footer";
+body {
+    margin: 0%;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.centrado {
+    margin: auto;
+    width: 90%;
+    max-width: 960px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    width: 100%;
+    display: block;
+
+}
+
+.degradado {
+    margin-top: -15%;
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
